@@ -1,6 +1,6 @@
-DB_NAME=blogdb
-DB_USER=root
-DB_PASSWORD=pa55word
-DB_HOST=localhost
+DB_NAME=iodblogapi-database
+DB_USER=jvnsxijveo
+DB_PASSWORD=04MXA83L57CNJB2T$
+DB_HOST=iodblogapi-server
 DB_PORT=3306
 PORT=3000
