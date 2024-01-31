@@ -2,11 +2,11 @@
   "name": "iod-blog-team",
   "version": "1.0.0",
   "description": "A demo express blog",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node index.js",
-    "start-dev": "cross-env NODE_ENV=development node index.js",
-    "dev": "cross-env NODE_ENV=development nodemon index.js"
+    "start": "node server.js",
+    "start-dev": "cross-env NODE_ENV=development node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
   },
   "author": "",
   "license": "ISC",
