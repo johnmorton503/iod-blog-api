@@ -17,7 +17,9 @@
 </form>
 <script>
   const form = document.querySelector('form');
+  const button = document.querySelector('button');
   form.addEventListener('submit', async (e) => {
+    button.disabled = true;
     e.preventDefault();
     const formData = new FormData(form);
     const data = Array.from(formData.entries()).reduce((memo, [key, value]) => ({
@@ -37,5 +39,6 @@
     } else {
       alert(result.error);
     }
+    button.disabled = false;
   });
 </script>
