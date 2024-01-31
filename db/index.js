@@ -12,7 +12,7 @@ const sequelize = new Sequelize(
     ssl: true,
     dialectOptions: {
        ssl: {
-          "require": true
+          "require": process.env.DB_SSL,
        }
      }
   }
