@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/8217286c-24d4-4d67-9adb-9c1b083d6f5f/resourceGroups/johnmiodblog/providers/Microsoft.Web/sites/johnmiodblog",
+    "appService.deploySubpath": "."
+}
